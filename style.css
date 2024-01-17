@@ -10,6 +10,14 @@ html,body{
     height: 100%;
 }
 
+.ri-twitter-fill{
+    cursor: pointer;
+}
+
+.ri-arrow-left-circle-line{
+    cursor: pointer;
+}
+
 #main{
     display: flex;
     width: 100%;
@@ -44,7 +52,7 @@ html,body{
     font-size: 14px;
 }
 
-#lnavr i{
+i:nth-child(3){
     color: royalblue;
 }
 
@@ -58,6 +66,12 @@ html,body{
 #textcenter h1{
     font-size: 90px;
     font-weight: 850;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+#textcenter h1:hover{
+    color: orangered;
 }
 
 #textcenter p{
@@ -118,7 +132,7 @@ html,body{
     background-position: center;
 }
 
-@media(max-width: 500px){
+@media(max-width: 850px){
     #main{
         flex-direction: column;
     }
@@ -127,5 +141,12 @@ html,body{
     }
     #main #right{
         width: 100%;
+    }
+}
+
+@media(max-width:300px){
+    #textcenter h1{
+        font-size: 27vw;
+        margin-top: 100px;
     }
 }

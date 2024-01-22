@@ -467,6 +467,12 @@ nav #nav-right #menu-button{
     }
 }
 
+@media(max-width:600px){
+    #division .inner-division{
+        padding: 20px 30px;
+    }
+}
+
 /* ------------------------------------contact section------------------------------------ */
 
 #contact

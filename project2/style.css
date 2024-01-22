@@ -26,6 +26,7 @@ html,body{
     background-color: var(--black);
     color: aliceblue;
 }
+
 h1{
     font-size: 17px;
 }
@@ -34,7 +35,7 @@ p{
     font-size: 12px;
 }
 
-#home{
+/* #home{
     display: flex;
 }
 
@@ -63,7 +64,7 @@ p{
     border-radius: 20px;
     border-color: aqua;
     border-width: 5px;
-}
+} */
 
 /* #About {
     width: 100%;

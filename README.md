@@ -1,2 +1,2 @@
-# Projects-for-fun
+# Astar Frontend
 Just try to learn by building stuffs.
